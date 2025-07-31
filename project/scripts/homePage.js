@@ -1,5 +1,6 @@
 //https://zenquotes.io/api/today
 const quote = document.getElementById("quoteSpot");
+const author = document.getElementById("authorSpot");
 let slideIndex = 0;
 let apiUrl = 'https://dummyjson.com/quotes';
 // Make a GET request
@@ -26,6 +27,7 @@ fetch(apiUrl)
         else
         {
             quote.textContent = quoteData.quotes[quoteIndex].quote;
+            author.textContent = "-"+quoteData.quotes[quoteIndex].author;
             break;
         }
     }
