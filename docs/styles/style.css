@@ -201,7 +201,7 @@ ul li::marker{
 
 .thinCenter{
     max-width: 900px;
-    padding: 0.5rem;
+    padding: 2%;
     background-color: var(--color-primary);
     text-align: center;
 }
