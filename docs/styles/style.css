@@ -199,6 +199,13 @@ ul li::marker{
     text-align: center;
 }
 
+.thinCenter{
+    max-width: 900px;
+    padding: 0.5rem;
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
 
 /* Hide the images by default */
 .mySlides {
