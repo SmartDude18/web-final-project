@@ -47,5 +47,5 @@ function showSlides() {
   slideIndex++;
   if (slideIndex == slides.length) {slideIndex = 0}
   slides[slideIndex].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
